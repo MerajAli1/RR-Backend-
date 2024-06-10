@@ -5,3 +5,10 @@ APPROVED API's:
 (get) http://localhost:8003/api/v1/getProduct/:id
 (put) http://localhost:8003/api/v1/:id
 (delete) http://localhost:8003/api/v1/deleteProduct/:id
+
+
+
+REMAINING WORK
+Carosel API Integration
+orderItem Array(Problem)
+
