@@ -10,7 +10,7 @@ const orderPlaced = asyncHandler(async (req, res) => {
         throw new ApiError(400, "All fields are required...!")
     }
     // let name = firstName + lastName
-    const order = Order.create({
+    const order = await Order.create({
         firstName,
         lastName,
         phoneNumber,
